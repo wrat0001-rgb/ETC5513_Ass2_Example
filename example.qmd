@@ -1,0 +1,10 @@
+---
+title: "Example Quarto Document" 
+subtitle: "Part of ETC5513 Assignment2"
+author: "Your Name" 
+date: today
+format: 
+    html:
+        theme: cosmo
+        toc: true
+---
