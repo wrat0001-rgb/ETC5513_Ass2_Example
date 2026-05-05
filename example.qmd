@@ -9,5 +9,5 @@ format:
         toc: true
 ---
 
-## Updated Section in Main Branch 
-This content was added in the main branch.
+## Updated Section 
+This section combines the updates from both the main branch and testbranch.
