@@ -11,3 +11,16 @@ format:
 
 ## Updated Section 
 This section combines the updates from both the main branch and testbranch.
+
+## Bar plot creation
+```{r}
+ggplot2::ggplot(diamonds, aes(x = clarity, fill = cut)) +
+  geom_bar() +
+  labs(
+    title = "Distribution of Diamond Clarity by Cut",
+    x = "Clarity",
+    y = "Count",
+    fill = "Cut Quality"
+  )
+```
+
